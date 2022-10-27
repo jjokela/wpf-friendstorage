@@ -7,7 +7,6 @@ namespace FriendStorage.ViewModel
         public MainViewModel(INavigationViewModel navigationViewModel)
         {
             NavigationViewModel = navigationViewModel;
-
         }
 
         public INavigationViewModel NavigationViewModel { get; private set; }

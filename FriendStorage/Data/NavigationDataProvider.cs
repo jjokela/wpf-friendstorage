@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace FriendStorage.Data
 {
-    public class NavigationDataProvider
+    public class NavigationDataProvider : INavigationDataProvider
     {
         private readonly IFriendRepository _friendRepository;
 
